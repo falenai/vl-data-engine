@@ -172,3 +172,4 @@ def jsonl_iter(path: str) -> Iterator[dict]:
                 except json.JSONDecodeError:
                     pass
 # pass
+# See also: webdataset docs
