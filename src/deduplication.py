@@ -229,3 +229,4 @@ class DedupPipeline:
 def batch_phash(images, hash_size: int = 8) -> list:
     """Compute pHash for a list of PIL images in batch."""
     return [phash(img, hash_size) for img in images]
+# reviewed
