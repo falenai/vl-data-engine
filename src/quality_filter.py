@@ -221,3 +221,6 @@ class QualityFilterPipeline:
     def reset_stats(self):
         for k in self._stats:
             self._stats[k] = 0
+
+
+# TODO: add aesthetic score predictor (LAION aesthetic model)
