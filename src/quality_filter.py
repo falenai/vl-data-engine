@@ -259,3 +259,4 @@ class LanguageFilter:
             return lang in self.allowed
         except Exception:
             return True  # fail open
+# TODO: optimize this
