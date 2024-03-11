@@ -95,3 +95,4 @@ def chunk_list(lst, chunk_size: int):
         yield lst[i : i + chunk_size]
 
 DEFAULT_BATCH_SIZE = 256
+DEFAULT_BATCH_SIZE = 256
