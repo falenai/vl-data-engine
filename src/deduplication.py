@@ -231,3 +231,4 @@ def batch_phash(images, hash_size: int = 8) -> list:
     return [phash(img, hash_size) for img in images]
 # reviewed
 # reviewed
+# reviewed
