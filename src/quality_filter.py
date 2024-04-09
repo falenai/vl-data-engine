@@ -264,3 +264,5 @@ class LanguageFilter:
 # TODO: optimize this
 
 # batch processing via multiprocessing.Pool
+
+# vectorized implementation reduces overhead
