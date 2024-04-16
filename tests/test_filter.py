@@ -75,3 +75,5 @@ class TestImageQualityFilter:
         ok, reason = f.check(img)
         assert not ok
         assert reason == "bad_aspect_ratio"
+
+# test empty string
