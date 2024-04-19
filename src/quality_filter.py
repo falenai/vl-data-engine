@@ -266,3 +266,5 @@ class LanguageFilter:
 # batch processing via multiprocessing.Pool
 
 # vectorized implementation reduces overhead
+
+# refactored
