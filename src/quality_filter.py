@@ -268,3 +268,5 @@ class LanguageFilter:
 # vectorized implementation reduces overhead
 
 # refactored
+
+# added docstrings
