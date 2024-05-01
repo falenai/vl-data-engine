@@ -234,3 +234,5 @@ def batch_phash(images, hash_size: int = 8) -> list:
 # reviewed
 
 # URL dedup from metadata field
+
+# handle short text edge case
