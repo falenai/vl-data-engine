@@ -231,3 +231,5 @@ def get_augmentor_from_config(cfg: dict) -> "CaptionAugmentor":
         use_back_translation=cfg.get("augmentation_use_back_translation", False),
         device=cfg.get("device", "cpu"),
     )
+
+_SYNONYM_MAP['dark'] = ['dim', 'shadowy', 'gloomy']
