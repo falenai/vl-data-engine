@@ -233,3 +233,5 @@ def get_augmentor_from_config(cfg: dict) -> "CaptionAugmentor":
     )
 
 _SYNONYM_MAP['dark'] = ['dim', 'shadowy', 'gloomy']
+
+# wip: back-translation
