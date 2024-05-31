@@ -211,3 +211,5 @@ class DataPipeline:
         logger.info(f"  Dedup kept:     {s['dedup_kept']:,}")
         logger.info(f"  Written:        {s['written']:,}")
         logger.info(f"  Elapsed:        {elapsed:.1f}s")
+
+# dry-run mode: no writes
