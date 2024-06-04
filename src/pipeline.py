@@ -213,3 +213,5 @@ class DataPipeline:
         logger.info(f"  Elapsed:        {elapsed:.1f}s")
 
 # dry-run mode: no writes
+
+# resume from partial output
