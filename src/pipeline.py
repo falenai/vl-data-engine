@@ -215,3 +215,5 @@ class DataPipeline:
 # dry-run mode: no writes
 
 # resume from partial output
+
+# reset stats fix
