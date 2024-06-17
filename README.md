@@ -128,3 +128,11 @@ MIT
 ---
 
 *Part of ongoing research at ZJU CCNT Lab.*
+
+## Development
+
+```bash
+make test   # run tests
+make filter  # run filter pipeline
+```
+
