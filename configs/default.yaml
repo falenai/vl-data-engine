@@ -1,0 +1,41 @@
+# VL-Data-Engine default configuration
+input_path: "data/input.jsonl"
+output_path: "output/"
+image_root: "data/images/"
+output_format: "jsonl"
+
+filter:
+  min_text_len: 10
+  max_text_len: 512
+  min_word_count: 3
+  max_word_count: 100
+  check_repeated_ngrams: true
+
+  use_clip_filter: true
+  min_clip_score: 0.22
+  clip_model: "ViT-B-32"
+  clip_pretrained: "openai"
+  clip_batch_size: 256
+
+  use_aesthetic_filter: false
+  min_aesthetic_score: 4.5
+
+  min_image_size: 64
+  max_aspect_ratio: 3.0
+
+run_dedup: true
+dedup_image_method: "phash"
+dedup_image_threshold: 5
+dedup_text_threshold: 3
+
+run_augmentation: false
+augmentation_use_templates: true
+augmentation_use_synonyms: true
+augmentation_use_back_translation: false
+
+device: "auto"
+num_workers: 4
+batch_size: 256
+
+log_level: "INFO"
+log_every: 5000

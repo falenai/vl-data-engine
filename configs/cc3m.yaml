@@ -1,0 +1,35 @@
+# CC3M specific config — stricter CLIP score threshold
+input_path: "data/cc3m.jsonl"
+output_path: "output/cc3m_clean/"
+image_root: "data/cc3m/images/"
+output_format: "jsonl"
+
+filter:
+  min_text_len: 15
+  max_text_len: 256
+  min_word_count: 4
+  max_word_count: 60
+  check_repeated_ngrams: true
+
+  use_clip_filter: true
+  min_clip_score: 0.28
+  clip_model: "ViT-L-14"
+  clip_pretrained: "openai"
+  clip_batch_size: 128
+
+  use_aesthetic_filter: false
+  min_image_size: 128
+  max_aspect_ratio: 2.5
+
+run_dedup: true
+dedup_image_method: "phash"
+dedup_image_threshold: 4
+
+run_augmentation: false
+
+device: "auto"
+num_workers: 8
+batch_size: 128
+
+log_level: "INFO"
+log_every: 10000
