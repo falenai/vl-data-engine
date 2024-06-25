@@ -270,3 +270,5 @@ class LanguageFilter:
 # refactored
 
 # added docstrings
+
+# fp16 for CLIP to reduce memory
