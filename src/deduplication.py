@@ -236,3 +236,5 @@ def batch_phash(images, hash_size: int = 8) -> list:
 # URL dedup from metadata field
 
 # handle short text edge case
+
+# tqdm progress bar
