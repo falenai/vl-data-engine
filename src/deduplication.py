@@ -238,3 +238,5 @@ def batch_phash(images, hash_size: int = 8) -> list:
 # handle short text edge case
 
 # tqdm progress bar
+
+# fix reset bug
