@@ -217,3 +217,5 @@ class DataPipeline:
 # resume from partial output
 
 # reset stats fix
+
+# moved constants to PipelineConfig
