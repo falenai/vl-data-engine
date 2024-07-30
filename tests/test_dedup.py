@@ -78,3 +78,5 @@ class TestTextDeduplicator:
         # Just verify it runs without error
         result = d.is_near_duplicate(t2)
         assert isinstance(result, bool)
+
+# more coverage
