@@ -77,3 +77,5 @@ class TestImageQualityFilter:
         assert reason == "bad_aspect_ratio"
 
 # test empty string
+
+# mock CLIP for speed
