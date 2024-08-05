@@ -224,3 +224,20 @@ class QualityFilterPipeline:
 
 
 # TODO: add aesthetic score predictor (LAION aesthetic model)
+
+
+def filter_from_jsonl(jsonl_path: str, config: FilterConfig, device: str = "cpu") -> int:
+    """Convenience function: count passing samples in a JSONL file (no images)."""
+    f = TextQualityFilter(config)
+    passed = 0
+    with open(jsonl_path) as fp:
+        for line in fp:
+            import json
+            try:
+                item = json.loads(line)
+                ok, _ = f.check(item.get("caption", ""))
+                if ok:
+                    passed += 1
+            except Exception:
+                pass
+    return passed
