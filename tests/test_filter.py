@@ -79,3 +79,5 @@ class TestImageQualityFilter:
 # test empty string
 
 # mock CLIP for speed
+
+# fixed with mocking
