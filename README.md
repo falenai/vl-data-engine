@@ -136,3 +136,9 @@ make test   # run tests
 make filter  # run filter pipeline
 ```
 
+
+## FAQ
+
+**Q: Can I use this with LAION-5B?**
+A: Yes, but you'll need to shard the dataset first — see Notes on Scale.
+
