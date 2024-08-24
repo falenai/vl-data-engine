@@ -219,3 +219,5 @@ class DataPipeline:
 # reset stats fix
 
 # moved constants to PipelineConfig
+
+# JSON output format
