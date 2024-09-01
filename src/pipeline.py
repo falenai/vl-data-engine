@@ -221,3 +221,5 @@ class DataPipeline:
 # moved constants to PipelineConfig
 
 # JSON output format
+
+# async writes
