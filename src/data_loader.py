@@ -52,7 +52,7 @@ def _decode_text(data: bytes) -> Optional[str]:
         return None
 
 
-def create_wds_pipeline(
+def create_wds_pipeline  # type: ignore(
     shards: str,
     image_size: int = 224,
     batch_size: int = 256,
