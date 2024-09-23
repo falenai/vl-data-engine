@@ -272,3 +272,5 @@ class LanguageFilter:
 # added docstrings
 
 # fp16 for CLIP to reduce memory
+
+# sample-level report
