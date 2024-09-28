@@ -142,3 +142,10 @@ make filter  # run filter pipeline
 **Q: Can I use this with LAION-5B?**
 A: Yes, but you'll need to shard the dataset first — see Notes on Scale.
 
+
+## Architecture
+
+```
+Raw Data → TextFilter → CLIPFilter → ImageFilter → DedupFilter → Augmentor → Clean Data
+```
+
