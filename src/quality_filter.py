@@ -274,3 +274,5 @@ class LanguageFilter:
 # fp16 for CLIP to reduce memory
 
 # sample-level report
+
+# batch size mismatch fix
