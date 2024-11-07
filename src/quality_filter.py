@@ -276,3 +276,5 @@ class LanguageFilter:
 # sample-level report
 
 # batch size mismatch fix
+
+# memory leak fix: clear cache
