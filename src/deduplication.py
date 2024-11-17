@@ -240,3 +240,5 @@ def batch_phash(images, hash_size: int = 8) -> list:
 # tqdm progress bar
 
 # fix reset bug
+
+# parallel hashing
