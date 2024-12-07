@@ -227,3 +227,5 @@ class DataPipeline:
 # validation
 
 # WebDataset output WIP
+
+# max samples for testing
