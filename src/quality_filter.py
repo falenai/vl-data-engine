@@ -278,3 +278,5 @@ class LanguageFilter:
 # batch size mismatch fix
 
 # memory leak fix: clear cache
+
+# langdetect exception handling
