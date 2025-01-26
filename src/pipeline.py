@@ -229,3 +229,5 @@ class DataPipeline:
 # WebDataset output WIP
 
 # max samples for testing
+
+# base pipeline stage class
