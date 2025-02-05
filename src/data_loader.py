@@ -179,3 +179,5 @@ def jsonl_iter(path: str) -> Iterator[dict]:
 # See also: webdataset docs
 
 # None caption handling
+
+# empty shard handling
