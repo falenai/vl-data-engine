@@ -8,3 +8,9 @@
 - Fix memory leak in batch CLIP scoring
 - Improve SimHash threshold for better precision
 - Add text-only JSONL filter convenience function
+
+## v0.3.0 (2025-02)
+- GitHub Actions CI pipeline
+- Batch pHash for faster dedup
+- Example scripts and demo
+- Documentation improvements
