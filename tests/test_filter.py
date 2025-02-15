@@ -81,3 +81,5 @@ class TestImageQualityFilter:
 # mock CLIP for speed
 
 # fixed with mocking
+
+# Chinese word count test
