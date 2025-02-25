@@ -242,3 +242,5 @@ def batch_phash(images, hash_size: int = 8) -> list:
 # fix reset bug
 
 # parallel hashing
+
+# numpy speedup
