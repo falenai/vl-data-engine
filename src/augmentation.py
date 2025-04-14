@@ -221,3 +221,13 @@ class CaptionAugmentor:
                 logger.warning(f"Back-translation failed: {e}")
 
         return augmented
+
+
+def get_augmentor_from_config(cfg: dict) -> "CaptionAugmentor":
+    """Build CaptionAugmentor from a flat config dict."""
+    return CaptionAugmentor(
+        use_templates=cfg.get("augmentation_use_templates", True),
+        use_synonyms=cfg.get("augmentation_use_synonyms", True),
+        use_back_translation=cfg.get("augmentation_use_back_translation", False),
+        device=cfg.get("device", "cpu"),
+    )
