@@ -16,3 +16,6 @@ langdetect>=1.0.9
 open-clip-torch>=2.20.0
 # pinned versions
 
+
+# updated 2026
+
