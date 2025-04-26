@@ -282,3 +282,5 @@ class LanguageFilter:
 # langdetect exception handling
 
 # diversity score
+
+# transformers 4.40 compat
