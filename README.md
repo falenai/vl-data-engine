@@ -104,6 +104,10 @@ The pipeline expects JSONL files, one record per line:
 {"image": "another/image.jpg", "caption": "Mountain landscape at sunset.", "score": 0.9}
 ```
 
+## Notes on Scale
+
+For billion-scale datasets, the in-memory deduplication hashes will exceed RAM. Consider sharding the dataset and running dedup per-shard, then doing a cross-shard merge step (planned for v0.4). For now, the pipeline is validated on datasets up to ~10M pairs on a single machine with 64GB RAM.
+
 ## Roadmap
 
 - [x] Text heuristic filters
