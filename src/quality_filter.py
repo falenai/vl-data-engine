@@ -241,3 +241,21 @@ def filter_from_jsonl(jsonl_path: str, config: FilterConfig, device: str = "cpu"
             except Exception:
                 pass
     return passed
+
+
+class LanguageFilter:
+    """Filter samples by detected language.
+    
+    Requires: langdetect (pip install langdetect)
+    """
+    
+    def __init__(self, allowed: list = None):
+        self.allowed = set(allowed or ["en", "zh-cn", "zh-tw"])
+    
+    def check(self, text: str) -> bool:
+        try:
+            from langdetect import detect
+            lang = detect(text)
+            return lang in self.allowed
+        except Exception:
+            return True  # fail open
