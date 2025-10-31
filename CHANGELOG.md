@@ -14,3 +14,8 @@
 - Batch pHash for faster dedup
 - Example scripts and demo
 - Documentation improvements
+
+## v0.4.0-dev (2025-Q3)
+- Language detection filter (langdetect)
+- Config-driven augmentor factory
+- Scale limitation documented
