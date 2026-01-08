@@ -124,3 +124,7 @@ For billion-scale datasets, the in-memory deduplication hashes will exceed RAM. 
 ## License
 
 MIT
+
+---
+
+*Part of ongoing research at ZJU CCNT Lab.*
